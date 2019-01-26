@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-config-prettier"
+  ],
+  "rulesDirectory": [
+    "tslint-plugin-prettier"
+  ],
+  "rules": {
+    "prettier": [
+      true,
+      {
+        "singleQuote": true,
+        "semi": false
+      }
+    ],
+    "no-console": false,
+    "no-floating-promises": true,
+    "no-unused-expression": true,
+    "interface-name": false,
+    "object-literal-sort-keys": false,
+    "no-bitwise": false,
+    "no-implicit-dependencies": [true, "dev"],
+    "variable-name": ["allow-leading-underscore"]
+  }
+}
